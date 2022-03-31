@@ -1,3 +1,22 @@
-.username {
-    color: red;
+:root{
+    --cor-primaria-enviar : rgb(75, 200, 138);
+    --cor-hover-enviar : rgb(116, 158, 137);
+    --cor-secundaria-enviar : rgb(22, 58, 40);
+    
+}
+.Enviar {
+    border: none;
+    padding: 10px 10px 10px 10px;
+    background-color: var(--cor-primaria-enviar);
+    outline: var(--cor-secundaria-enviar);
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.Enviar:hover {
+    background-color: var(--cor-hover-enviar);
+}
+
+.Enviar:active {
+    background-color: var(--cor-secundaria-enviar);
 }
